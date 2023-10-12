@@ -43,7 +43,7 @@ const Portfolio = () => {
       image: Img4,
       github: "/iMall",
       demo_link: "http://imall-php.infinityfreeapp.com/",
-      title: "iMall using PHP ,MYSQL ,HTMl ,CSS",
+      title: "iMall using PHP, MYSQL, HTML, CSS",
       description:
         "An Ecommerce website where you can buy anything.It is a fully responsive website.",
     },
