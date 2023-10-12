@@ -12,26 +12,35 @@ const Portfolio = () => {
   const [hoverIndex, setHoverIndex] = useState(null);
   const articleCount = 5;
   const articles = [];
-  const projects = [
-    {
+   const projects = [
+	{
       id: 1,
-      image: Img1,
-      github: "/Todolist",
-      demo_link: "https://netflix-clone1098.netlify.app",
-      title: "ToDo List using Node and Express",
-      description: "Save notes or anything you want to not forget about.",
+      image: Img2,
+      github: "/iMall",
+      demo_link: "http://imall-php.infinityfreeapp.com/",
+      title: "iMall using PHP, MYSQL, HTMl, CSS",
+      description:
+        "An Ecommerce website where you can buy anything.It is a fully responsive website.",
     },
     {
       id: 2,
-      image: Img2,
-      github: "/Secrets",
-      demo_link: "http://imall-php.infinityfreeapp.com/",
-      title: "Secrets using OAuth2.0 and ejs",
+      image: Img4,
+      github: "/iDiscuss",
+      demo_link: "http://forumphp.infinityfreeapp.com/",
+      title: "iDiscus using PHP, MYSQL",
       description:
-        "Save secrets or anything you want to not talk about. Used OAuth2.0 authorization to keep our database safe from hackers.",
+        "A forum to discuss about coding and the problems you face while coding.",
     },
-    {
+	{
       id: 3,
+      image: Img1,
+      github: "/netflix-clone",
+      demo_link: "https://netflix-clone1098.netlify.app",
+      title: "NetFlix-Clone using Reactjs and Firebase",
+      description: "Made a clone of Netflix using Reactjs and firebase.",
+    },
+	{
+      id: 4,
       image: Img3,
       github: "/portfolio",
       demo_link: "https://portfolio1098.netlify.app",
@@ -39,30 +48,21 @@ const Portfolio = () => {
       description: "My personal portfolio containing my skills and projects.",
     },
     {
-      id: 4,
-      image: Img4,
-      github: "/iMall",
-      demo_link: "http://imall-php.infinityfreeapp.com/",
-      title: "iMall using PHP, MYSQL, HTML, CSS",
-      description:
-        "An Ecommerce website where you can buy anything.It is a fully responsive website.",
-    },
-    {
       id: 5,
       image: Img5,
-      github: "/netflix-clone",
-      demo_link: "https://netflix-clone1098.netlify.app",
-      title: "NetFlix-Clone using Reactjs and Firebase",
-      description: "Made a clone of Netflix using Reactjs and firebase.",
+      github: "/Secrets",
+      demo_link: "http://imall-php.infinityfreeapp.com/",
+      title: "Secrets using OAuth2.0 and ejs",
+      description:
+        "Save secrets or anything you want to not talk about. Used OAuth2.0 authorization to keep our database safe from hackers.",
     },
-    {
+	{
       id: 6,
       image: Img6,
-      github: "/iDiscuss",
-      demo_link: "http://forumphp.infinityfreeapp.com/",
-      title: "iDiscus using PHP, MYSQL",
-      description:
-        "A forum to discuss about coding and the problems you face while coding.",
+      github: "/Todolist",
+      demo_link: "https://netflix-clone1098.netlify.app",
+      title: "ToDo List using Node and Express",
+      description: "Save notes or anything you want to not forget about.",
     },
   ];
 
