@@ -36,7 +36,7 @@ const Portfolio = () => {
       github: "/portfolio",
       demo_link: "https://portfolio1098.netlify.app",
       title: "Portfolio using Reactjs and Emailjs",
-      description: "Save notes or anything you want to not forget about.",
+      description: "My personal portfolio containing my skills and projects.",
     },
     {
       id: 4,
